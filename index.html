@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header id="header">
-        <img src="" id="header-img">
+        <img src="img/1144.jpg" id="header-img">
         <nav id="nav-bar">
           <ul>
             <li><a class="nav-link" href="features">Features</a></li>
            <li> <a class="nav-link" href ="how" >How it works</a></li>
       <li><a class="nav-link" href="price">Pricing</a></li>
       </ul></nav></header>
-      <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-      </video><br><br>
+      <div id="video">
+          <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+      </div>
+      <br><br>
          <form id = "form" method ="post" action = "https://www.freecodecamp.com/email-submit">
            <label>Email : </label>
           <input id = "email" type = "email" required placeholder="Email"><br><br>
